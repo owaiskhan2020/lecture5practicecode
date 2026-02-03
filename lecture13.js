@@ -84,3 +84,53 @@ let b1 = 12;
  let g1 = 21;
  g1 **= 6;
  console.log(g1)
+
+ // == equal operator 
+
+ let item = 10;
+ let item2 = 10;
+
+ let res = (item == item2);
+ console.log(res)
+
+ //  === equal operator
+ let per = 12;
+ let per1 = 13;
+ let resu = (per === per1);
+ console.log(resu)
+
+ // != equal operator
+ let t1 = 16;
+ let t2 = 12;
+ let t3 = (t1 != t2);
+ console.log(t3) 
+
+ // !== equal operator
+ let x1 = 11;
+ let x2 = 19;
+ let x3 = (x1 !== x2);
+ console.log(x3)
+
+ // > equal operator
+ let y1 = 18;
+ let y2 = 22;
+ let y3 =(y1 > y2);
+ console.log(y3)
+
+ // < equal operator
+ let p1 = 34;
+ let p2 = 37;
+ let p3 = (p1 < p2);
+ console.log(p3)
+
+ // >= equal operator
+ let o1 = 55;
+ let o2 = 57;
+ let o3 = (o1 >= o2);
+ console.log(o3)
+
+ // <= equal operator
+ let u1 = 23;
+ let u2 = 45;
+ let u3 = (u1 <= u2);
+ console.log(u3)
