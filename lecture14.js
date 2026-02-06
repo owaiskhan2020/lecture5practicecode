@@ -144,3 +144,8 @@ if (isNaN){
 }else{
     console.log("the number is an integer")
 }
+ 
+// let tex1 = "johu"
+// let tex2 = "doe"
+// let tex3 = tex1 + " "+ tex2;
+// console.log(tex3)
