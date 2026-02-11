@@ -60,30 +60,7 @@ switch(day){
         console.log(`Invaild day`)
 }
 
-// let op = `*`;
-// let a,b,res;
-// a =9; b =2;
-// switch(op){
-//     case `+`:
-//     res = a+b;
-//     break;
-//     case `-`:
-//     res = a-b;
-//     break;
-//     case `*`:
-//     res = a*b;
-//     break;
-//     case `/`:
-//     res = a/b;
-//     break;
-//     default:
-//         console.log(`Wrong operator`);
-//         console.log(`Enter operator like + - * /`);
-//         break;
-// }
-// if(op =='+'|| op=="-"|| op=="*"|| op=="/"){
-//     console.log("The result of two numbers is ",a," ",op," ",b," = ",res);
-// }
+
 
 let number1 = (prompt("Enter the value of number1: "));
 let number2 = (prompt("Enter the value of number2: "));
