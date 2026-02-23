@@ -92,3 +92,8 @@ let t =numb.toString();
 console.log(typeof(numb));
 console.log(typeof(t));
 
+//--------------split--------------
+let fruits = "apple,banana,mango,orange";
+let res = fruits = fruits.split(",");
+console.log(res);
+
