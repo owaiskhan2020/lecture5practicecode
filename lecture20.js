@@ -50,7 +50,7 @@ while(i8 < 10){
     i8++
 }
 let i10=3
-const names=["owais","youman","nouman","suleman"];
+const names=["owais","yuman","nouman","suleman"];
 while(names[i10]){
     console.log(names);
     i10++

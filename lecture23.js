@@ -1,6 +1,6 @@
 //------------indexof-------------
-let text = "Hello javaScript";
-console.log(text.indexOf("java"));
+// let text = "Hello javaScript";
+// console.log(text.indexOf("java"));
 
 //-----------lastindexof-----------
 let text1 = "hello world hello";
@@ -15,9 +15,13 @@ let text3 = "the rain in spain";
 console.log(text3.match("ain"));
 
 //-------------mathall-------
-// let text4 = "test1,test2,test3";
-// let matches = text4.matchAll(/test\d/g)
+let text = "test1 test2 test3";
 
+let matches = text.matchAll(/test\d/g);
+
+for (let match of matches) {
+  console.log(match);
+}
 //-----------includes()------
 let text5= "hello world";
 console.log(text5.includes("world"));

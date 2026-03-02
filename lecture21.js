@@ -25,33 +25,34 @@
 //     default:
 //         console.log("invalid day");
 // }
-// let day = Number(prompt("Enter Day"))
-// switch(day){
-// case 1:
-// console.log("Monday");
-// break;
-// case 2:
-// console.log("Sunday");
-// break;
-// case 3:
-// console.log("Saturday");
-// break;
-// case 4:
-// console.log("Firday");
-// break;
-// case 5:
-// console.log("Thursday");
-// break;
-// case 6:
-// console.log("Wednesday");
-// break;
-// case 7:
-// console.log("Tuesday");
-// break;
-// default:
-// console.log("Invaild day");
+//----------practice-------
+let day = Number(prompt("Enter Day"))
+switch(day){
+case 1:
+console.log("Monday");
+break;
+case 2:
+console.log("Sunday");
+break;
+case 3:
+console.log("Saturday");
+break;
+case 4:
+console.log("Firday");
+break;
+case 5:
+console.log("Thursday");
+break;
+case 6:
+console.log("Wednesday");
+break;
+case 7:
+console.log("Tuesday");
+break;
+default:
+console.log("Invaild day");
 
-// }
+}
 //--------------------------------------------------
 // let text = "";
 
@@ -63,16 +64,16 @@
 
 // }
 // console.log(text);
-//  let text = "";
+ let text1 = "";
 
-// loop1: for (let j = 1; j < 5; j++) {
-//   loop2: for (let i = 1; i < 5; i++) {
-//     if (i === 3) { break loop1; }
-//     text += i;
-//    }
+loop1: for (let j = 1; j < 5; j++) {
+  loop2: for (let i = 1; i < 5; i++) {
+    if (i === 3) { break loop1; }
+    text += i;
+   }
 
-// }
-// console.log(text);1
+}
+console.log(text1);
 //-----------------------------------------------------
 // let text = "";
 
@@ -114,11 +115,14 @@ console.log(sName.length);
 //     console.log(`2 x ${i} = $ {2 * i}`);
 // }
 // 
+// let num = 20;
+// for (let i =1;i<=num;i++){
+//     console.log(`3 x ${i} = ${3 * i}`)
+// }
 let num = 20;
-for (let i =1;i<=num;i++){
+for (let i= 1;i<=num;i++){
     console.log(`3 x ${i} = ${3 * i}`)
 }
-
 //------------------------------------------
 // let password = prompt("Enter password:");
 

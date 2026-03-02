@@ -88,17 +88,32 @@ if(age1 >= 18){
 }
 
 // calculator using if else 
-let num1 = Number(prompt("Enter first number"));
+// let num1 = Number(prompt("Enter first number"));
+// let num2 = Number(prompt("Enter second number:"));
+// let operator = prompt ("Enter number (+,-,*,/):");
+// if(operator === "+"){
+//     console.log("Result:",num1+num2);
+// }else if(operator === "-"){
+//     console.log("Result:",num1-num2);
+// }else if(operator === "*"){
+//     console.log("Result:",num1*num2);
+// }else if(operator === "/"){
+//     console.log("Result:",num1/num2)
+// }else{
+//     console.log("Invoild operator");
+// }
+//------practice-----------
+let num1 = Number(prompt("Enter first number:"));
 let num2 = Number(prompt("Enter second number:"));
-let operator = prompt ("Enter number (+,-,*,/):");
+let operator = prompt("Enter number (+,-,/,*):");
 if(operator === "+"){
     console.log("Result:",num1+num2);
 }else if(operator === "-"){
     console.log("Result:",num1-num2);
-}else if(operator === "*"){
+}else if (operator === "/"){
+    console.log("Result:",num1/num2);
+}else if (operator === "*"){
     console.log("Result:",num1*num2);
-}else if(operator === "/"){
-    console.log("Result:",num1/num2)
 }else{
     console.log("Invoild operator");
 }
