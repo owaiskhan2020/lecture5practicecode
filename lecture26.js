@@ -125,15 +125,15 @@ console.log(Object.values(user));
 // }
 // console.log(electricthings.speci);
 //--------------practice-----
-// let electricthings = {
-//     name : "laptop",
-//     price: 80000,
-//     speci: {
-//         brand : "Dell",
-//         model: "2025"
-//     }
-// }
-// console.log(electricthings.speci)
+let electricthings = {
+    name : "laptop",
+    price: 80000,
+    speci: {
+        brand : "Dell",
+        model: "2025"
+    }
+}
+console.log(electricthings.speci)
 //---------Student object system---------
 // let student2 = {
 //     name: "owais",
