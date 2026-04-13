@@ -82,25 +82,42 @@ if (country == 'usa'){
 
 
 // do your home-work make marks calculator
-let marks = 77;
+// let marks = 77;
+// let position;
+// if( marks >=95 && marks<=100){
+//     console.log(`1st position`)
+// }else if(marks >=85 && marks <95){
+//     console.log(`2nd position`)
+// }else if(marks >=75 && marks <85){
+//     console.log(`3rd position`)
+// }else if(marks >=65 && marks <75){
+//     console.log(`4th position`)
+// }else if(marks >=55 && marks <65){
+//     console.log(`5th position`)
+// }else if(marks >=45 && marks <55){
+//     console.log(`6th position`)
+// }else if(marks >=35 && marks <45){
+//     console.log(` position`)
+// }else {
+//     console.log(`your marks less than ${marks} you are fail`)
+// }
+let marks = 45;
 let position;
-if( marks >=95 && marks<=100){
+if (marks >=95 && marks<=100){
     console.log(`1st position`)
-}else if(marks >=85 && marks <95){
+}else if (marks >=85 && marks<=95){
     console.log(`2nd position`)
-}else if(marks >=75 && marks <85){
+}else if (marks >=75 && marks<=85){
     console.log(`3rd position`)
-}else if(marks >=65 && marks <75){
+}else if (marks >=65 && marks<=75){
     console.log(`4th position`)
-}else if(marks >=55 && marks <65){
+}else if (marks >=55 && marks<=65){
     console.log(`5th position`)
-}else if(marks >=45 && marks <55){
+}else if (marks >=45 && marks <=55){
     console.log(`6th position`)
-}else if(marks >=35 && marks <45){
-    console.log(` position`)
-// }else if(marks >=45 && marks <35){
-//     console.log(`position`)
-}else {
+}else if (marks >=35 && marks<=45){
+    console.log(`position`)
+}else{
     console.log(`your marks less than ${marks} you are fail`)
 }
 

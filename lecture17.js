@@ -1,13 +1,24 @@
-// For loop
-for(i=1; i <= 10; i++){
-    console.log(i)
+// // For loop
+// for(i=1; i <= 10; i++){
+//     console.log(i)
+// }
+//---practice------
+for(i=1;i<=10;i++){
+    console.log(i);
 }
+
 //while loop
 let num = 0;
 while(num<10){
     console.log(num)
     num++;
 }
+//---------practice-------
+// let num =0;
+// while(num<10){
+//     console.log(num)
+//     num++;
+// }
 //Boolean()
 let a3 =(10>9);
 console.log(a3)

@@ -1,24 +1,31 @@
-// function hello(num1, num2) {
-//     // alert("hello world");
-//     // console.log("hello world");
-//     let result = num1 * num2;
-//     console.log(result);
-    
-// }
+function hello(num1, num2) {
+    // alert("hello world");
+    // console.log("hello world");
+    let result = num1 * num2;
+    console.log(result);
+}
+hello(2, 4);
+//------practice-----------
+function hello (num1,num2){
+  let result = num1*num2;
+  console.log(result);
+}
+hello 
 
-// hello(2, 4);
 
-// function hello (){
-//     // alert ("hello world")
-//     console.log("well come");
-// }
-// hello();
+function hello (){
+    // alert ("hello world")
+    console.log("well come");
+}
+hello();
 
-// function greet (nu1,nu2){
-//     let result = nu1 + nu2;
-//     console.log(result);
-// }
-// greet(3,4);
+function greet (nu1,nu2){
+    let result = nu1 + nu2;
+    console.log(result);
+}
+greet(3,4);
+
+//-------practice
 
 // function greet1(num1,num2){
 //     let result = num1-num2;
@@ -48,11 +55,11 @@ console.log(ret(2, 45 ));
 // let val = arr(5, 5);
 // console.log(val);
 //-----practice-------
-// const arr = (a,b) =>{
-//  return a - b;
-// }
-// let val = arr (10,7);
-// console.log(val)
+const arr = (a,b) =>{
+ return a - b;
+}
+let val = arr (10,7);
+console.log(val)
 //--------------expression-------------------
 
 // const func = function(sName, num){
@@ -74,66 +81,68 @@ console.log(func("owais", 20))
 // console.log(defa());
 // console.log("owais")
 //--------practice----------
-function defa(name = "Guest "){
+// function defa(name = "Guest "){
+//   return name;
+// }
+// console.log(defa());
+// console.log("owais")
+function defa (name = "owais"){
   return name;
 }
 console.log(defa());
-console.log("owais")
 
 //---------------colculator--------------
-// function colculator(num1, num2, logi){
-//     if(logi === "+"){
-//         return num1 + num2;
-//     }
-//     else if(logi === "-"){
-//         return num1 - num2;
-//     }
-//     else if(logi === "*"){
-//         return num1 * num2;
-//     }
-//     else if(logi === "/"){
-//         return num1 / num2;
-//     }
-//     else if(logi === "%"){
-//         return num1 % num2;
-//     }
-//     else {
-//         console.log("please give correct symbol");
-//     }   
-// }
-// let result = colculator(18, 5, "+");
-// console.log(result);
-//-----------practice------------
-function colculator (num1,num2,logi){
-  if(logi === "+" ){
-    return num1 + num2;
-  }
-  else if (logi === "-"){
-    return num1 - num2;
-  }
-  else if (logi === "*"){
-    return num1 * num2;
-  }
-  else if (logi === "/"){
-    return num1 / num2;
-  }
-  else if (logi === "%"){
-    return num1 % num2;
-  }
-  else {
-    console.log("please give correct symblo");
-  }
+function colculator(num1, num2, logi){
+    if(logi === "+"){
+        return num1 + num2;
+    }
+    else if(logi === "-"){
+        return num1 - num2;
+    }
+    else if(logi === "*"){
+        return num1 * num2;
+    }
+    else if(logi === "/"){
+        return num1 / num2;
+    }
+    else if(logi === "%"){
+        return num1 % num2;
+    }
+    else {
+        console.log("please give correct symbol");
+    }   
 }
-let result = colculator(16 , 5, "-");
+let result = colculator(18, 5, "+");
 console.log(result);
+//-----------practice------------
+// function colculator (num1,num2,logi){
+//   if (logi === "+"){
+//     return num1 + num2;
+//   }
+//   else if (logi === "-"){
+//     return num1 - num2;
+//   }
+//   else if (logi === "*"){
+//     return num1 *  num2;
+//   }
+//   else if (logi === "/"){
+//     return num1 / num2;
+//   }
+//   else if (logi === "%"){
+//     return num1 % num2;
+//   }
+//   else ("please give correct symblo")
+// }
+// let result = colculator(23,4,"-");
+// console.log(result);
+//-------------ageChecker------------
 
-
-//-------------ageChecker
-// function ageChecker(age) {
+// function ageChecker() {
+//   let age = Number(prompt(`Enter the value age`))
 //   if (age < 0) {
 //     console.log("Invalid age");
 //   } 
-//   else if (age <= 10) {
+//   else if (age <= 8) {
 //     console.log("You are a child");
 //   } 
 //   else if (age <= 17) {
@@ -146,40 +155,38 @@ console.log(result);
 //     console.log("You are a senior citizen");
 //   }
 // }
-// ageChecker(11);
-//----------practice-----
-// function ageChecker(age){
-//   if(age < 0){
-//     console.log("Invoild age");
-//   }
-//   else if (age <= 8){
-//     console.log("You are child");
-//   }
-//   else if (age <= 17){
-//      console.log("You are teenager");
-//   }else if(age <= 20){
-//     console.log("You are adult");
-//   }else{
+// ageChecker(9);
+// function ageChecker(){
+//   let age = Number(prompt(`Enter the value age :`))
+//   if (age < 0){
+//     console.log("Invalid age")
+//   }else if (age <= 8){
+//     console.log("You are a child");
+//   }else if (age <= 17){
+//     console.log("You are an teenager");
+//   }else if (age <= 20){
+//     console.log("You are an adult");
+//   }else {
 //     console.log("You are a senior citizen")
 //   }
 // }
-// ageChecker(20);
-//--------practice----------
+// ageChecker(17); 
+
+//----------practice-----
 function ageChecker(age){
-  if (age < 0){
+  if(age < 0){
     console.log("Invoild age");
   }
-  else if (age <=8){
-    console.log("you are child");
+  else if (age <= 8){
+    console.log("You are child");
   }
   else if (age <= 17){
-    console.log("you are teenager");
-  }
-  else if (age <= 20){
-    console.log("you are adult");
-  }
-  else{
-  console.log("you are a senior citizen");
+     console.log("You are teenager");
+  }else if(age <= 20){
+    console.log("You are adult");
+  }else{
+    console.log("You are a senior citizen")
   }
 }
-ageChecker(20)
+ageChecker(20);
+

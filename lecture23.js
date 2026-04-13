@@ -1,35 +1,44 @@
 //------------indexof-------------
 // let text = "Hello javaScript";
 // console.log(text.indexOf("java"));
-
+//--------practice------
+let text = "hello javascript";
+console.log(text.indexOf("java"))
 //-----------lastindexof-----------
-let text1 = "hello world hello";
-console.log(text1.lastIndexOf("hello"));
+// let text1 = "hello world hello";
+// console.log(text1.lastIndexOf("hello"));
+//---------practice--------
+let text1= "hello world hello";
+console.log(text1.lastIndexOf("hello"))
 
-//-----------search----------
-let text2 = "i love javascript";
-console.log(text2.search("javascript"));
+// //-----------search----------
+// let text2 = "i love javascript";
+// console.log(text2.search("javascript"));
+//--------practice--------
+let test2 = "i love javascript";
+console.log(test2.search("love"))
 
-//-------------math()------
+// //-------------math()------
+// let text3 = "the rain in spain";
+// console.log(text3.match("ain"));
+//-------practice--------
 let text3 = "the rain in spain";
 console.log(text3.match("ain"));
 
-//-------------mathall-------
-let text = "test1 test2 test3";
+// //-------------mathall-------
+// let text = "test1 test2 test3";
+// let matches = text.matchAll(/test\d/g);
+// for (let match of matches) {
+//   console.log(match);
+// }
+// //-----------includes()------
+// let text5= "hello world";
+// console.log(text5.includes("world"));
 
-let matches = text.matchAll(/test\d/g);
+// ///------------startsWith()------
+// let text6 = "javascript is powerful";
+// console.log(text6.startsWith("javascript"));
 
-for (let match of matches) {
-  console.log(match);
-}
-//-----------includes()------
-let text5= "hello world";
-console.log(text5.includes("world"));
-
-///------------startsWith()------
-let text6 = "javascript is powerful";
-console.log(text6.startsWith("javascript"));
-
-// -----------endsWith()--------
-let text7 = "image.png";
-console.log(text7.endsWith("png"));
+// // -----------endsWith()--------
+// let text7 = "image.png";
+// console.log(text7.endsWith("png"));
