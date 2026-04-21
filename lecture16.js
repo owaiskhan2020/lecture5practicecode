@@ -6,9 +6,9 @@
 let age22 = 19;
 let text1 = (age22 < 18) ? 'minor':'major';
 console.log(text1)
-
-
+//------------------------------------
 // // switch 
+
 // // let fruit = 'banana';
 // // switch (fruit){
 // //     case 'banana':
@@ -33,7 +33,7 @@ switch(fruit){
                 console.log(`you guess the wrong`)
 }
 
-
+//----------------------------------
 // // let light = 'red';
 // // switch (light){
 // //     case 'red':
@@ -57,7 +57,7 @@ switch(light){
     default:
         console.log(`go`)
 }
-
+//----------------------------------------
 // // let day = 2;
 // // let activity;
 // // switch(day){
@@ -85,7 +85,7 @@ switch(light){
 // //     default:
 // //         console.log(`Invaild day`)
 // // }
-//----
+//----practice-----------
 let day = 6;
 let activity;
 switch(day){
@@ -114,61 +114,31 @@ switch(day){
         console.log(`Invaild day`);
 }
 
-
-
+//-----------------------------------------------------
 // let number1 = (prompt("Enter the value of number1: "));
 // let number2 = (prompt("Enter the value of number2: "));
 // const operator = prompt("Enter a operator ( either +, -, * or / ): ");
-
 // switch(operator) {
-
 //     case "+":
 //         result = number1 + number2;
 //         console.log(`${number1} + ${number2} = ${result}`);
 //         break;
-
 //     case "-":
 //         result = number1 - number2;
 //         console.log(`${number1} - ${number2} = ${result}`);
 //         break;
-
 //     case "*":
 //         result = number1 * number2;
 //         console.log(`${number1} * ${number2} = ${result}`);
 //         break;
-
 //     case "/":
 //         result = number1 / number2;
 //         console.log(`${number1} / ${number2} = ${result}`);
 //         break;
-
 //     default:
 //         console.log("Invalid operator");
 //}
-// let number1 = (prompt("Enter the value of number1: "))
-// let number2 = (prompt("Enter the value of number2: "))
-// const  operator = prompt("Enter a opeator (either +,-,* or /):");
-// switch(operator){
-//     case "+":
-//     result = number1 + number2;
-//     console.log(`${number1} + ${number2} = ${result}`);
-//     break;
-//     case "-":
-//     result = number1 - number2;
-//     console.log(`${number1} - ${number2} = ${result}`);
-//     break;
-//     case "*":
-//     result = number1 * number2;
-//     console.log(`${number1} * ${number2} = ${result}`);
-//     break;
-//     case "/":
-//     result = number1 / number2;
-//     console.log(`${number1} / ${number2} = ${result}`);
-//     break;
-//     default:
-//         console.log("Invaild operator")
 
-// }
 //-----------practice-------------------
 let number1 = prompt("Enter the value of number:");
 let number2 = prompt("Enter the value of number:");
@@ -192,4 +162,3 @@ switch(operator){
         default:
         console.log("Invalid operator");
     }
-   

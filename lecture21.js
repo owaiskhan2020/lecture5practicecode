@@ -1,7 +1,7 @@
 let day = Number(prompt("Enter Day"));
 switch(day){
     case 1:
-        console.log("moday");
+        console.log("monday");
         break;
     case 2:
         console.log("sunday");
@@ -119,6 +119,7 @@ let num = 20;
 for (let i =1; i<=num; i++){
   console.log(`3 x ${i} = ${3 * i}`)
 }
+
 //------------------------------------------
 let password = prompt("Enter password:");
 

@@ -155,23 +155,6 @@ console.log(result);
 //     console.log("You are a senior citizen");
 //   }
 // }
-// ageChecker(9);
-// function ageChecker(){
-//   let age = Number(prompt(`Enter the value age :`))
-//   if (age < 0){
-//     console.log("Invalid age")
-//   }else if (age <= 8){
-//     console.log("You are a child");
-//   }else if (age <= 17){
-//     console.log("You are an teenager");
-//   }else if (age <= 20){
-//     console.log("You are an adult");
-//   }else {
-//     console.log("You are a senior citizen")
-//   }
-// }
-// ageChecker(17); 
-
 //----------practice-----
 function ageChecker(age){
   if(age < 0){

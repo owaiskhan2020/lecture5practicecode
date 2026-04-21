@@ -92,7 +92,11 @@ for(fruit of fruit){
 //     console.log(a);
 // }
 //--------practice------
-let arr = [55,43,25,67,87];
+// let arr = [55,43,25,67,87];
+// for (arr of arr){
+//     console.log(arr)
+// }
+let arr = [55,45,76,56,56];
 for (arr of arr){
-    console.log(arr)
+    console.log(arr);
 }

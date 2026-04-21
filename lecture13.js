@@ -1,9 +1,7 @@
 // assignment operator in js
 // + operator
-
 let num1 = 10;
 let num2 = 5;
-
 let result = num1 + num2;
 console.log(`The sum of ${num1} and ${num2} is ${result}`)
 
@@ -24,6 +22,7 @@ let d = 10;
 let e = 6;
 let f = d**e;
 console.log(`The exponentiation of ${d} and ${e} is ${f}`)
+
 //Division operator
 let g = 11;
 let h = 9;
@@ -45,7 +44,6 @@ if(num%2 == 0){
 
 let fname = "jhon";
 let lname = "doi";
-
 console.log(fname +' '+ lname)
 let num3 = 5;
 let num4 = "5";
@@ -89,7 +87,6 @@ let b1 = 12;
 
  let item = 10;
  let item2 = 10;
-
  let res = (item == item2);
  console.log(res)
 

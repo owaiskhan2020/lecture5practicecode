@@ -1,9 +1,7 @@
 // javascript conditional statements
 
 //if statement
-
 // let hour = 19
-
 // if (hour < 18){
 //     // if the condition is true the block of code to be executed
 //     console.log('good morning')
@@ -18,9 +16,7 @@
 // let age = 16;
 
 // if (age >= 25){
-
 //     console.log(`you are ${age} years old you are university student`)
-
 // }else if (age > 18){
 //     console.log(`you are ${age} years old you are collage student`)
 // }else{
@@ -101,23 +97,42 @@ if (country == 'usa'){
 // }else {
 //     console.log(`your marks less than ${marks} you are fail`)
 // }
-let marks = 45;
+//---------practice----------------------
+// let marks = 45;
+// let position;
+// if (marks >=95 && marks<=100){
+//     console.log(`1st position`)
+// }else if (marks >=85 && marks<=95){
+//     console.log(`2nd position`)
+// }else if (marks >=75 && marks<=85){
+//     console.log(`3rd position`)
+// }else if (marks >=65 && marks<=75){
+//     console.log(`4th position`)
+// }else if (marks >=55 && marks<=65){
+//     console.log(`5th position`)
+// }else if (marks >=45 && marks <=55){
+//     console.log(`6th position`)
+// }else if (marks >=35 && marks<=45){
+//     console.log(`position`)
+// }else{
+//     console.log(`your marks less than ${marks} you are fail`)
+// }
+let marks = 79;
 let position;
-if (marks >=95 && marks<=100){
-    console.log(`1st position`)
+if (marks>=95 && marks<=100){
+    console.log(`You have 1st position`);
 }else if (marks >=85 && marks<=95){
-    console.log(`2nd position`)
+    console.log(`You have 2nd position`);
 }else if (marks >=75 && marks<=85){
-    console.log(`3rd position`)
-}else if (marks >=65 && marks<=75){
-    console.log(`4th position`)
-}else if (marks >=55 && marks<=65){
-    console.log(`5th position`)
-}else if (marks >=45 && marks <=55){
-    console.log(`6th position`)
-}else if (marks >=35 && marks<=45){
-    console.log(`position`)
+    console.log(`You have 3rd position`);
+}else if (marks >=65 && marks <= 75){
+    console.log(`You have 4th position`);
+}else if (marks >=55 && marks <= 65){
+    console.log(`You have 5th position`);
+}else if (marks >= 45 && marks<= 55){
+    console.log(`You have 6th position`)
+}else if (marks >= 35 && marks <= 45){
+    console.log(`position`);
 }else{
-    console.log(`your marks less than ${marks} you are fail`)
+    console.log(`you marks less than ${marks} you are fail`)
 }
-

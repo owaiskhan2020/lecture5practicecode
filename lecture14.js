@@ -133,7 +133,6 @@ let age1 = "18";
  
 if (age1){
     console.log("the given number is not an integer");
-
 }else{
     console.log("the number is an integer")
 }

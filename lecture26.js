@@ -148,21 +148,51 @@ console.log(electricthings.speci)
 //     }
 // };
 // console.log(student2.avg());
-let student2 = {
-    name : "owais",
-    marks : [40,50,60,70],
-    avg: function(){
-        let sum = 0;
-        for (let i = 0; i<this.marks.length; i++){
-            sum += this.marks[i];
-        }
-        let average = sum / this.marks.length;
-        return average;
-    }
+//---------practice-------
+// let student2 = {
+//     name : "owais",
+//     marks : [40,50,60,70],
+//     avg: function(){
+//         let sum = 0;
+//         for (let i = 0; i<this.marks.length; i++){
+//             sum += this.marks[i];
+//         }
+//         let average = sum / this.marks.length;
+//         return average;
+//     }
+// }
+// console.log(student2.avg());
+//-------------------------------
+// const user1 = {
+//   username: "owais 123",
+//   email: "owais@gmail.com",
+//   isLoggedIn: true,
+//   skills: ["HTML", "CSS", "JavaScript"]
+// };
+// if (user.isLoggedIn) { 
+// }
+// console.log("Welcome " + user1.username);
+const user1 = {
+    username : "owais 123",
+    email : "owaiskhan@gmail.com",
+    isloggedIn : true,
+    skills:["HTML","CSS","JavaScript"]
+};
+if (user.isloggedIn){
+    console.log("welcome" + user1.username)
 }
-console.log(student2.avg());
-
-
-
-
-
+//----------------------------------
+// const cart = {
+//   items: [
+//     { name: "Shirt", price: 1500, qty: 2 },
+//     { name: "Shoes", price: 3000, qty: 1 }
+//   ],
+//   total: function () {
+//     let sum = 0;
+//     this.items.forEach(item => {
+//       sum += item.price + item.qty;
+//     });
+//     return sum;
+//   }
+// };
+// console.log(cart.total());
