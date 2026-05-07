@@ -103,17 +103,21 @@ if(age1 >= 18){
 //     console.log("Invoild operator");
 // }
 //------practice-----------
-let num1 = Number(prompt("Enter first number:"));
+let num1 = Number(prompt("Enter first number: "));
 let num2 = Number(prompt("Enter second number:"));
-let operator = prompt("Enter number (+,-,*,/):");
+let operator = prompt("Enter number (+,-,*,/)");
 if (operator === "+"){
-    console.log("Result:",num1+num2);
+    result = num1 + num2;
+        console.log(`${num1} + ${num2} = ${result}`);
 }else if (operator === "-"){
-    console.log("Result:",num1-num2);
+    result = num1 - num2;
+        console.log(`${num1} - ${num2} = ${result}`);
 }else if (operator === "*"){
-    console.log("Result:",num1*num2);
+   result = num1 * num2;
+        console.log(`${num1} * ${num2} = ${result}`);
 }else if (operator === "/"){
-    console.log("Result:",num1/num2);
-}else{
+   result = num1 / num2;
+        console.log(`${num1} / ${num2} = ${result}`);
+}else {
     console.log("Invaild operator")
 }

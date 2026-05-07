@@ -87,12 +87,21 @@ console.log(student.greet());
 // } 
 // console.log(student1.marks.maths);
 //---------practice-------
-let student1 = {
-    name: "owais",
-    city: "peshawar",
-    marks : {
-        maths: 90,
-        englis : 80,
+// let student1 = {
+//     name: "owais",
+//     city: "peshawar",
+//     marks : {
+//         maths: 90,
+//         englis : 80,
+//     }
+// }
+// console.log(student1.marks)
+let student1 ={
+    name : "owais",
+    city : "peshawar",
+    marks :{
+        marks : 90,
+        english: 80,
     }
 }
 console.log(student1.marks)
@@ -144,7 +153,7 @@ console.log(electricthings.speci)
 //             sum += this.marks[i];
 //         }
 //         let average = sum / this.marks.length;
-//         return average;
+//         return average; 
 //     }
 // };
 // console.log(student2.avg());
@@ -176,6 +185,7 @@ const user1 = {
     username : "owais 123",
     email : "owaiskhan@gmail.com",
     isloggedIn : true,
+    
     skills:["HTML","CSS","JavaScript"]
 };
 if (user.isloggedIn){

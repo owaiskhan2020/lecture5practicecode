@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rest operator in js</title>
+</head>
+<body>
+    <script>
+    // function sum(...args){
+    // let total = 0;
+    // for (let i of args) {
+    // total += i
+    // }
+    // return total
+    // }
+    // console.log(sum(1,2,3,4,5))
+    // console.log(sum(10,20,30,40,50))
+    //-------------practice----------------
+    function sum(...args){
+        let total = 0;
+        for (const i of args) {
+            total += i ; 
+        }
+        return total;
+    }
+    console.log(sum(2,3,4,5))
+
+    //-----------------rest operator with array-------------------
+    // let arr = [1,2,3,4,5];
+    // let [first,second,...rest] = arr;
+    // console.log(first);
+    // console.log(second);
+    // console.log(rest)
+
+    //--------------rest operator with object------------
+//     let obj = {
+//         name: "Alish",
+//         age: 21,
+//         city: "Hyderabard",
+//         country: "pakistan"
+//     }
+//     let {name,age,...res} = obj;
+//     console.log(name);
+//     console.log(age);
+//     console.log(res)
+//     //---------------function--------
+//     function userInfo(name,age,...hobbies){
+//     console.log(name);
+//     console.log(age);
+//     console.log(hobbies)
+//  }
+//  userInfo("owais",20,"cricket","gaming","coding")
+//  //---------------------------------------
+//     // function sum(...numbers) {
+//     // return numbers.reduce((total, num) => total + num, 0);
+//     // }
+//     // console.log(sum(1, 2, 3, 4)); 
+//     //-----------------------------------------
+//     // function multiple (...numbers){
+//     //     return numbers.reduce((total,num) => total* num,1)
+//     // }
+//     // console.log(multiple(2,3,4))
+// //---------------------------------------
+//     function sum(...numbers) {
+//   let total = 1;
+//   for (let num of numbers) {
+//     total *= num;
+//   }
+//   return total;
+// }
+// console.log(sum(2,3,4));
+//  //-----------------------------------
+//  function student (name, ...marks){
+//     console.log("Name:",name);
+//     console.log("Marks:",marks);
+//     let total = 0;
+//     for (let  num of marks) {
+//         total +=num;
+//     }
+//     console.log("Total marks:",total)
+
+//     return total;
+//  }
+// student("uzair",2,3,4,5)
+// //---------------------------------
+// function cartTotal(...prices){
+//     let total = 0;
+//     for (let i of prices) {
+//         total +=i   
+//     }
+//     return total;
+// }
+// console.log(cartTotal(100,200,50))
+// //-----------------
+// function maxNunber(...nums){
+//     return Math.max(...nums);
+// }
+// console.log(maxNunber(2,3,4,9,7,6,4))
+///------------------------------------
+const data = [1,2,3,4,5];
+function process (first,...rest ){
+    console.log(first);
+    let sum = 0;
+    for (let  num of rest) {
+        sum += num;
+    }
+    console.log(sum);
+}
+process(...data)
+//---------------------------------------
+// function studentResult(name, ...marks) {
+//   console.log("Name:", name);
+//   let total = 0;
+//   for (let i of marks) {
+//     total += i;
+//   }
+//   let average = total / marks.length;
+//   console.log("Total:", total);
+//   console.log("Average:", average);
+// }
+// studentResult("Ali", 80, 70, 90, 60);
+// ///-----------Rest Operator with array---------
+// const numbers= [1,2,3,4,5];
+// let [first1,...rest1] = numbers;
+// console.log(first1);
+// console.log(rest1)
+// //--------------------------
+// const fruits =["apple","banana","mango","orange"];
+// const [firstfruit,...otherfruits] = fruits;
+// console.log(firstfruit);
+// console.log(otherfruits)
+// //--------Rest Operator with Object-------------
+// const user= {
+//     name1:"ubaid",
+//     age: 21,
+//     city: "peshawar",
+//     country:"pakistan"
+// }
+// const {name1,...rest2} = user;
+// console.log(name1);
+// console.log(rest2);
+// //--------------------------------
+// const car = {
+//     brand: "BMW",
+//     model: "X5",
+//     year: 2020,
+//     color: "black"
+// };
+// const {brand,...details} = car;
+// console.log(brand);
+// console.log(details)
+//-------------------------------------
+// const student = {
+//   name: "Owais",
+//   age: 21,
+//   marks: [80, 90, 70, 85]
+// };
+
+// const { name, marks } = student;
+// const [first, ...restMarks] = marks;
+
+// console.log(name);
+// console.log(first);
+// console.log(restMarks);
+const student = {
+    name: "owais",
+    age: 21,
+    marks :[80,90,70,85]
+};
+const {name, marks} = student;
+const [first, ...restMarks] = marks;
+console.log(name);
+console.log(first);
+console.log(restMarks)
+//----------
+
+
+ 
+
+    </script>
+</body>
+</html>

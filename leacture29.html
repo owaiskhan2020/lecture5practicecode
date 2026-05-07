@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <p id="output"></p> 
+    
+    <!-- <script>
+        const arr = ["Apple","Banana","Watermelon"];
+        const fruit1 = arr [0];
+        const fruit2 = arr [1];
+        const fruit3 = arr [2];
+        document.getElementById("output").innerHTML=
+        `fruit1: `+ fruit1 + "<br>"+
+        `fruit2: `+ fruit2 + "<br>"+
+        `fruit3: `+ fruit3
+    </script> -->
+
+    <!-- <script>
+        const arr = ["Apple","Banana","Orange"];
+        const [fruit1,fruit2,fruit3] = arr;
+        document.getElementById("output").innerHTML=
+        `fruit1: `+ fruit1 + `<br>`+
+        `fruit2: `+ fruit2 +`<br>`+
+        `fruir3: `+ fruit3 ;
+    </script> -->
+  
+    <script>
+        //-------practice question-----------
+        //-------Array Destructuring--------
+        // const number = [10, 20, 30];
+        // const [number1,number2,number3] = number;
+        // document.getElementById("output").innerHTML=
+        // `number1: `+ number1 + `<br>` +
+        // `number2: `+ number2 + `<br>` +
+        // `number3: `+ number3 + `<br>`
+        //-----------------------------
+        // const colors = ["Red","Green","Blue"];
+        // const [color1,color2,color3] = colors;
+        // document.getElementById("output").innerHTML=
+        // `color1: `+ color1 + "<br>" +
+        // `color2: `+ color2 + "<br>" +
+        // `color3: `+ color3 ;
+        //---------------------------------
+        // const nums = [1,2,3,4];
+        // const [first, ,third] = nums;
+        // document.getElementById("output").innerHTML=
+        // `first: ` + first + "<br>"+
+        // `third: ` + third ;
+       //--------Object Destructuring--------
+       const user ={
+        Name: "Ali",
+        Age: 21
+       };
+       const {Name,Age} = user;
+       document.getElementById("output").innerHTML=
+       `Name: ` + Name + "<br>"+
+       `Age: ` + Age + "<br>"
+   
+    //--------------------------------------
+    // const car = {
+    // brand:"Toyota",
+    // model:"Corolla"
+    // };
+    // const {brand,model} = car;
+    // document.getElementById("output").innerHTML=
+    // `brand: `+ brand +`<br>`+
+    // `model: `+ model + `<br>`
+    //---------------------------------------
+    // const person = {
+    //     name:"Ahmed",
+    //     city: "Lahore"
+    // };
+    // const {name:userName,city:userCity} = person;
+    // document.getElementById("output").innerHTML=
+    // `userName: `+ userName +`<br>`+
+    // `userCity: `+ userCity + `<br>`
+    //-------------------------------------------
+    // const data = {
+    //     name: "uzair"
+    // };
+    // const {name,age = 18} = data;
+    // document.getElementById("output").innerHTML=
+    // `name: `+ name + `<br>`+
+    // `age: `+ age + `<br>`
+    //---------------------------------------
+    // const student = {
+    //     Name: "owais"
+    // };
+    // const {Name,Grade = "A"} = student;
+    // document.getElementById("output").innerHTML=
+    // `Name: `+ Name + `<br>`+
+    // `Grade: `+ Grade + `<br>`
+    //--------------------------------
+    // const product = {
+    //     Title: "loptop",
+    //     Price: 50000,
+    //     brand: "HP"
+    // };
+    // const {Title,Price} = product;
+    // document.getElementById("output").innerHTML=
+    // `Title: `+ Title + `<br>`+
+    // `Price: `+ Price + `<br>`
+    </script>
+</body>
+</html>

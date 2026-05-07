@@ -1,25 +1,25 @@
 // let sname = "awais khan";
 // let result = `my name is : <h1>${sname}</h1>`
 // console.log(result);
+//---practice---------------
 let sname = "owais khan";
-let result = `my name is : ${sname}`
+let result = `my name is : ${sname}`;
 console.log(result);
 
 //----------CharAt---------
-// let nam = "nabil ahmad";
+// let nam3 = "nabil ahmad";
 // console.log(nam.charAt(3));
-let name = "owais koko";
-console.log(name.charAt(3));
-
+//---------practice---------
+let nam3 = "owais khan";
+console.log(nam3.charAt(3))
 //------------charCodeAt()-------------
 // let text = "AELLO WORLD nabil ahmad";
 // let char = text.charCodeAt(0);
 // console.log(char);
 //---------practice-------
-let text = "Allw WORLD yaman ahamad";
-let char = text.charCodeAt(2);
-console.log(char)
-
+let text = "AELLO WORLD owais ahmad";
+let char = text.charCodeAt(0);
+console.log(char);
 //-------------concat---------
 // let nam = "nabil";
 // let nam2 =  "khan";
@@ -28,9 +28,8 @@ console.log(char)
 //---------practice---------
 let nam = "owais";
 let nam2 = "khan";
-let newNam= nam.concat(" ",nam2);
+let newNam = nam.concat(" ",nam2);
 console.log(newNam)
-
 //--------------concat------------
 // let num1 = 3;
 // let num2 = 4;
@@ -38,9 +37,9 @@ console.log(newNam)
 // console.log(num1 + num2 - nam);
 //---------practice--------
 let num1 = 3;
-let num2 = 4;
-let num3 = "3";
-console.log(num1 + num2 - num3)
+let num4 = 4;
+let nam5 = "3";
+console.log(num1 + num4 - nam5)
 
 //----------slice--------------
 // let text = "Apple, Banana, Kiwi";
@@ -54,23 +53,20 @@ console.log(part)
 // let text = "Apple, Banana, Kiwi, mango";
 // let part = text.slice(7);
 // console.log(part);
-let text4 = "Apple,Banana,Kiwi,mango";
-let part1= text4.slice(7);
-console.log(part1);
 
 // let text = "Apple, Banana, Kiwi";
 // let part = text.slice(-19);
 // console.log(part);
-let text5 = "Apple,Banana, kiwi";
-let part3 = text5.slice(-18);
-console.log(part3);
+// let text5 = "Apple,Banana, kiwi";
+// let part3 = text5.slice(-18);
+// console.log(part3);
 
 //-------toUpperCase-----------
 // let nam = "nabil";
-// console.log(nam.toUpperCase(nam));
+// console.log(nam6.toUpperCase(nam));
 //--------practice------
-let nam3 = "owais";
-console.log(nam3.toLocaleUpperCase(nam3))
+let nam6 = "owais";                  
+console.log(nam6.toLocaleUpperCase(nam6))
 
 //----------toLowerCase------------
 // let nam = "NABIL";
@@ -94,18 +90,15 @@ console.log(text7)
 // console.log(typeof(numb));
 // console.log(typeof(text));
 //---------practice--------
-let numb = 5;
-let t =numb.toString();
-console.log(typeof(numb));
-console.log(typeof(t));
-
+let nu1= 5;
+let text8 = nu1.toString();
+console.log(typeof(nu1))
+console.log(typeof(text8))
 //--------------split--------------
 // let fruits = "apple,banana,mango,orange";
 // let res = fruits = fruits.split(",");
 // console.log(res);
 //---------practice-----------
 let fruits = "apple,banana,mango,orange";
-let res = fruits = fruits.split(",");
+let res = fruits = fruits.split(".")
 console.log(res);
-
-

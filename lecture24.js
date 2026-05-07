@@ -136,7 +136,6 @@ console.log(result);
 // let result = colculator(23,4,"-");
 // console.log(result);
 //-------------ageChecker------------
-
 // function ageChecker() {
 //   let age = Number(prompt(`Enter the value age`))
 //   if (age < 0) {
@@ -155,21 +154,36 @@ console.log(result);
 //     console.log("You are a senior citizen");
 //   }
 // }
-//----------practice-----
-function ageChecker(age){
-  if(age < 0){
-    console.log("Invoild age");
-  }
-  else if (age <= 8){
-    console.log("You are child");
-  }
-  else if (age <= 17){
-     console.log("You are teenager");
-  }else if(age <= 20){
-    console.log("You are adult");
+function ageChecker(){
+  let age = Number(prompt("Enter the value age"))
+  if (age < 0){
+    console.log("invaild day");
+  }else if (age <= 8){
+    console.log("you are a child");
+  }else if (age <= 17){
+    console.log("you are a teenager")
+  }else if (age <=20){
+    console.log("you are an adult");
   }else{
-    console.log("You are a senior citizen")
+    console.log("you are a senior citizen")
   }
 }
 ageChecker(20);
-
+//----------practice-----
+// function ageChecker(age){
+//   if(age < 0){
+//     console.log("Invoild age");
+//   }
+//   else if (age <= 8){
+//     console.log("You are child");
+//   }
+//   else if (age <= 17){
+//      console.log("You are teenager");
+//   }else if(age <= 20){
+//     console.log("You are adult");
+//   }else{
+//     console.log("You are a senior citizen")
+//   }
+// }
+// ageChecker(20);
+// 

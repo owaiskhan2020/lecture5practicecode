@@ -47,20 +47,38 @@ for(;time[i11];){
     i11++
 }
 //while loop
-let i3 = 0;
-while(i3<10){
-    console.log(`the sum value is while loop :${i3}`);
-    i3++
-}
+// let i3 = 0;
+// while(i3<10){
+//     console.log(`the sum value is while loop :${i3}`);
+//     i3++
+// }
+//---------practice--------
+// let i3 = 0;
+// while(i3<10){
+//  console.log(`the sum value is while loop : ${i3}`);
+//  i3 ++;
+// }
 
-let i8 = 0;
-while(i8 < 10){
-    console.log(`The number is :${i8}`);
-    i8++
-}
-let i10=3
-const names=["owais","yuman","nouman","suleman"];
-while(names[i10]){
+// let i8 = 0;
+// while(i8 < 10){
+//     console.log(`The number is :${i8}`);
+//     i8++
+// }
+//-----------practice---------
+// let i8 = 0;
+// while (i8 < 10){
+//     console.log(`the  number is : ${i8}`);
+// }
+// let i10=3
+// const names=["owais","yuman","nouman","suleman"];
+// while(names[i10]){
+//     console.log(names);
+//     i10++
+// }
+//-------practice---------
+let i10 = 3;
+const names = ["owais","nouman","ubaid","suleman"];
+while (names[i10]){
     console.log(names);
     i10++
 }
@@ -72,19 +90,26 @@ while(names[i10]){
 //     console.log(`the sum value is do while :${i2}`)
 //     i2++;
 // }
+//--------practice----
 let i2 = 0;
 do{
-    console.log('hello')
-}while(12>10){
-    console.log(`the sum value is do while : ${12}`);
-    i2++
+    console.log("hello");
+}while (i2 > 10){
+    console.log(`the sum value is do while :${i2}`)
+    i2++;
 }
-
-
+// let i9 = 0;
+// do{
+//     console.log(`welcome`)
+// }while(i9>10){
+//     console.log(i9);
+//     i9++
+// }
+//------practice---------
 let i9 = 0;
 do{
-    console.log(`welcome`)
+    console.log("welcome");
 }while(i9>10){
-    console.log(i9);
-    i9++
+    console.log(`the sum value is do while : ${i9}`);
+    i9++;
 }

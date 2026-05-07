@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ 
+</head>
+<body>
+   
+
+     <!-- <div id = "text">
+      <p> Paragraph One </p>
+      <p> Paragraph Two </p>
+   </div>
+   <button onclick = "changeHTML()"> Change HTML </button>  -->
+     <!-- <p id="p1">
+        this is a text.
+        this is a text.
+        this is a text.
+        this is a text.
+    </p> 
+     <input type="button" value="Hide text" onclick="document.getElementById('p1').style.visibility='hidden'"> 
+    <input type="button"value="Show text"onclick="document.getElementById('p1').style.visibility='visible'"> -->
+    
+    <!-- <h2>javaScript Validation</h2> 
+    <form action="/action_page.php"mothed="post">
+    <input type="text"name="fname"reguired>
+    <input type="submit"value="submit">
+    <p>If you click submit, without filling out the text field,
+    your browser will display an error message.</p>
+    </form> -->
+    <!-- <h1 id="heading"></h1>
+     <script>
+        const add = (a, b) => a+b;
+        document.getElementById("heading").innerHTML = add(10, 20)
+    </script> --> 
+    <!-- <script>
+        const sub = (a , b) => a-b;
+        document.getElementById("heading").innerHTML = sub (13, 3)
+    </script> -->
+    <!-- <script>
+        const mul = (a , b) => a*b;
+        document.getElementById("heading").innerHTML = mul (2, 15)
+    </script> -->
+    <!-- <script>
+        const div = (a ,b) => a / b;
+        document.getElementById("heading").innerHTML = div (29,2)
+    </script> -->
+    <!-- <script>
+        const rem = (a ,b) => a % b;
+        document.getElementById("heading").innerHTML = rem (12 ,7)
+    </script> -->
+
+
+    <!-- <script>
+       const add = x => 10 + x;
+        let res = add(2);
+        document.getElementById("heading")
+         .innerHTML = "the value returned from the arrow function is:" + res;
+     </script> -->
+
+     <!-- <script>
+        // const  sub = x => 20 - x;
+        // let res = sub(5);
+        // document.getElementById("heading")
+        // .innerHTML= "the  value returned from the arrow function is:" + res;
+    //     function changeHTML() {
+    //      let text = document.getElementById('text');
+    //      text.outerHTML = `<img src="https://www.tutorialspoint.com/static/images/logo.png?v3" alt="Logo">`;
+    //   }
+    //  </script> -->
+
+     <!-- <script>
+        const  mul = x => 9 * x;
+        let res = mul (2);
+        document.getElementById("heading")
+        .innerHTML = "the value returned from the arrow function is : " + res;
+     </script> -->
+
+     <!-- <script>
+        const div = x => 8 / x;
+        let res = div (4);
+        document.getElementById("heading")
+        .innerHTML= "the  value returned from the arrow function is : " + res;
+        </script> -->
+
+    <!-- <script>
+        const rem = x => 7 % x;
+        let res = rem (3);
+        document.getElementById("heading")
+        .innerHTML= "the value returned from the arrow function is :" + res;
+    </script> -->
+
+
+
+     <!-- create arrow fun
+     take multiple perameters
+     add them and return the value
+     show the res on web page -->
+
+     <!-- <h1 id="res"></h1>
+     <script>
+        const sum = (n1,n2,n3,n4,n5) => {
+            let add = n1+n2+n3+n4+n5
+            return add
+        }
+        let res = sum(5,10,20,30,40);
+        document.getElementById('res').innerHTML = res
+     </script> -->
+
+
+     <!-- <h1 id="output"></h1>
+     <script>
+        const sum = (a,b,c,d,e) => {
+            let sum = a + b + c + d + e;
+            return sum;
+        };
+        let res = sum (20, 30, 40, 50, 60);
+        document.getElementById("output").innerHTML = "the sum of 20,30,40,50 and 60 is:"+res;
+     </script> -->
+
+     <!-- <h1 id="output"></h1>
+     <script>
+        const sum = (a,b,c,d,e,f) => {
+            let sum = a + b + c + d + f;
+            return sum;
+        }
+        let res =  sum (20,30,40,50,60);
+        document.getElementById("output").innerHTML = "the sum of 20,30,40,50 and 60 is:"+res;
+     </script> -->
+
+
+    <!-- <p id="output"></p>
+   <script>
+    let isMul = false;
+    const func = isMul ? () => {
+    let res = 5 * 5;
+    document.getElementById("output").innerHTML = 
+    // "the multiplication value is :"+res;
+    `The Multiplication value is : `+res
+
+    } : () => {
+    let res = 5 + 5;
+    document.getElementById("output").innerHTML = 
+    // "the sum value is : " +res;
+    `The sum value is : ` +res;
+    }
+    func();
+   </script>   -->
+
+   
+
+   <!-- <p id="output"></p>
+   <script>
+    const output = document.getElementById("output");
+    let isMul = true;
+    const mul = (a = 10, b = 15) => a * b;
+    output.innerHTML += `mul (5,8) =`+ mul (5,8)+ `<br>`;
+    output.innerHTML += `mul (6) =`+ mul (6)+`<br>`;
+    output.innerHTML += `mul () =`+ mul ()+`<br>`
+
+   </script> -->
+   <h1 id="output"></h1>
+   <script>
+    // const add = (a,b) => a+b;
+    // const add = (a,b) =>{
+    //     return a+b;
+    // }
+    // let res = add(2,3)
+    // document.getElementById("output").innerHTML=
+    // `the value of add : `+res;
+
+
+
+    //  const  square = (x)=>{
+    //  return x * x;
+    // }
+    // let res = square (3,4);
+    // document.getElementById("output").innerHTML=
+    // `the value of multlipication : `+res;
+
+    const sayHello = ()=>{
+        return "Hello World"
+    }
+    let res = sayHello
+    document.getElementById("output").innerHTML="hello world"
+   
+    </script>
+    
+
+    
+   
+
+  
+</body>
+</html>
