@@ -14,10 +14,14 @@ console.log(`the sum variable is ${add}`);
  let mul = x1 * y1;
  console.log(`the sum variable is ${mul}`);
 
- let a1 = 20;
- let b1 = 4;
- let div = a1 / b1;
- console.log(`the sum variable is ${div}`)
+//  let a1 = 20;
+//  let b1 = 4;
+//  let div = a1 / b1;
+//  console.log(`the sum variable is ${div}`)
+let a1 = 20;
+let b1 = 4;
+let div = a1 / b1;
+console.log(`the sum variableis  ${div}`)
 
  //Create 2nd variables
  let x2 = 12;
