@@ -50,8 +50,10 @@ let num4 = "5";
 console.log(typeof(num3) +" "+ typeof(num4))
 
 // = operator
+// let a1 = 10;
+// console.log(a1)
 let a1 = 10;
-console.log(a1)
+console.log(a1);
 
 //+= operator
 let b1 = 12;
