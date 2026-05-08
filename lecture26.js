@@ -8,16 +8,16 @@
 // };
 // console.log(student.address);
 
-// let student1 = {
-//     name:"nouman",
-//     rollNo: 12,
-//     class : 10,
-//     city : "peshawar", 
-//     address: function (){
-//     console.log("welcome to school")
-//     }
-// }
-// console.log(student1.address);
+let student1 = {
+    name:"nouman",
+    rollNo: 12,
+    class : 10,
+    city : "peshawar", 
+    address: function (){
+    console.log("welcome to school")
+    }
+}
+console.log(student1.address);
 // console.log(student1.name);
 // console.log(student1.rollNo);
 // console.log(student1.city)
