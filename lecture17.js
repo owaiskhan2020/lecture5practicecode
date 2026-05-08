@@ -20,7 +20,9 @@ while(num<10){
 //     num++;
 // }
 //Boolean()
-let a3 =(10>9);
+// let a3 =(10>9);
+// console.log(a3)
+let a3 = (10>9);
 console.log(a3)
 // Value is True
 let a = 0;
