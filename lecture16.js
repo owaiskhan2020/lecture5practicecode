@@ -3,9 +3,11 @@
 // // let text1 = (age22 < 18 ) ? 'minor': 'major';
 // // console.log(text1)
 //-------practice--------
+// let age22 = 19;
+// let text1 = (age22 < 18) ? 'minor':'major';
+// console.log(text1)
 let age22 = 19;
-let text1 = (age22 < 18) ? 'minor':'major';
-console.log(text1)
+let text1 = (age22 < 18) ? 'minor':'major'
 //------------------------------------
 // // switch 
 
