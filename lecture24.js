@@ -33,11 +33,16 @@ greet(3,4);
 // }
 // greet1(5,9)
 //-----practice------
-function greet2(num1,num2){
-    let result = num1*num2;
-    console.log(result);
+// function greet2(num1,num2){
+//     let result = num1*num2;
+//     console.log(result);
+// }
+// greet2(4,5)
+function greet1(num1,num2){
+  let result = num1 * num2;
+  console.log(result);
 }
-greet2(4,5)
+greet1 (4,5)
 //--------------------
 function ret(a, b){
     return a + b;
