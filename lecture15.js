@@ -10,12 +10,18 @@
 //     console.log('good evening')
 // }
 //----------practice------------------
-let hour = 19;
-if (hour <18){
-    console.log(`good morning`)
-}else {
-    console.log(`good evening`)
-}
+// let hour = 19;
+// if (hour <18){
+//     console.log(`good morning`)
+// }else {
+//     console.log(`good evening`)
+// }
+ let hour = 19;
+ if (hour < 18){
+    console.log("good morning")
+ }else {
+    console.log("good evening")
+ }
 
 
 //if else
