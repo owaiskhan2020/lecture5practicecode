@@ -3,30 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Destructuring</title>
 </head>
 <body>
      <p id="output"></p> 
     
-    <!-- <script>
-        const arr = ["Apple","Banana","Watermelon"];
-        const fruit1 = arr [0];
-        const fruit2 = arr [1];
-        const fruit3 = arr [2];
-        document.getElementById("output").innerHTML=
-        `fruit1: `+ fruit1 + "<br>"+
-        `fruit2: `+ fruit2 + "<br>"+
-        `fruit3: `+ fruit3
-    </script> -->
+    <script>
+        // const arr = ["Apple","Banana","Watermelon"];
+        // const fruit1 = arr [0];
+        // const fruit2 = arr [1];
+        // const fruit3 = arr [2];
+        // document.getElementById("output").innerHTML=
+        // `fruit1: `+ fruit1 + "<br>"+
+        // `fruit2: `+ fruit2 + "<br>"+
+        // `fruit3: `+ fruit3
+        //------------practice-----------
+        // const arr = ["apple","banana","watermelon"];
+        // const fruit1 = arr [0];
+        // const fruit2 = arr [1];
+        // const fruit3  = arr [2];
+        // document.getElementById("output").innerHTML=
+        // `fruit1: ` + fruit1 + `<br>`+
+        // `fruit2: ` + fruit2 + `<br>`+
+        // `fruit3: ` + fruit3 
+       
+    </script> 
 
-    <!-- <script>
-        const arr = ["Apple","Banana","Orange"];
-        const [fruit1,fruit2,fruit3] = arr;
-        document.getElementById("output").innerHTML=
-        `fruit1: `+ fruit1 + `<br>`+
-        `fruit2: `+ fruit2 +`<br>`+
-        `fruir3: `+ fruit3 ;
-    </script> -->
+     <script>
+        // const arr = ["Apple","Banana","Orange"];
+        // const [fruit1,fruit2,fruit3] = arr;
+        // document.getElementById("output").innerHTML=
+        // `fruit1: `+ fruit1 + `<br>`+
+        // `fruit2: `+ fruit2 +`<br>`+
+        // `fruir3: `+ fruit3 ;
+        //------------practice----------
+        // const arr = ["Apple","Banana","Orange"];
+        // const [fruit1,fruit2,fruit3] = arr;
+        // document.getElementById("output").innerHTML=
+        // `fruit1: `+ fruit1 + `<br>`+
+        // `fruit2: `+ fruit2 + `<br>`+
+        // `fruit3: `+ fruit3 
+    </script> 
   
     <script>
         //-------practice question-----------
@@ -51,14 +68,23 @@
         // `first: ` + first + "<br>"+
         // `third: ` + third ;
        //--------Object Destructuring--------
-       const user ={
-        Name: "Ali",
+    //    const user ={
+    //     Name: "Ali",
+    //     Age: 21
+    //    };
+    //    const {Name,Age} = user;
+    //    document.getElementById("output").innerHTML=
+    //    `Name: ` + Name + "<br>"+
+    //    `Age: ` + Age + "<br>"
+    //--------------practice-------------
+    const user  = {
+        Name : "owais",
         Age: 21
-       };
-       const {Name,Age} = user;
-       document.getElementById("output").innerHTML=
-       `Name: ` + Name + "<br>"+
-       `Age: ` + Age + "<br>"
+    };
+    const {Name,Age} = user;
+    document.getElementById("output").innerHTML=
+    `Name: `+ Name + `<br>`+
+    `Age: ` + Age 
    
     //--------------------------------------
     // const car = {

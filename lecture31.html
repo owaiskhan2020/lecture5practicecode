@@ -17,14 +17,14 @@
     // console.log(sum(1,2,3,4,5))
     // console.log(sum(10,20,30,40,50))
     //-------------practice----------------
-    function sum(...args){
-        let total = 0;
-        for (const i of args) {
-            total += i ; 
-        }
-        return total;
+   function sum (...args){
+    let total = 0;
+    for (let  i of args) {
+        total +=i;
     }
-    console.log(sum(2,3,4,5))
+    return total
+   }
+   console.log(1,2,3,4,5)
 
     //-----------------rest operator with array-------------------
     // let arr = [1,2,3,4,5];
@@ -56,6 +56,11 @@
 //     // return numbers.reduce((total, num) => total + num, 0);
 //     // }
 //     // console.log(sum(1, 2, 3, 4)); 
+//----------practice---------
+// function sum(...numbers) {
+//     return numbers.reduce((total,num ) => total + num,0)
+// }
+
 //     //-----------------------------------------
 //     // function multiple (...numbers){
 //     //     return numbers.reduce((total,num) => total* num,1)
@@ -98,16 +103,16 @@
 // }
 // console.log(maxNunber(2,3,4,9,7,6,4))
 ///------------------------------------
-const data = [1,2,3,4,5];
-function process (first,...rest ){
-    console.log(first);
-    let sum = 0;
-    for (let  num of rest) {
-        sum += num;
-    }
-    console.log(sum);
-}
-process(...data)
+// const data = [1,2,3,4,5];
+// function process (first,...rest ){
+//     console.log(first);
+//     let sum = 0;
+//     for (let  num of rest) {
+//         sum += num;
+//     }
+//     console.log(sum);
+// }
+// process(...data)
 //---------------------------------------
 // function studentResult(name, ...marks) {
 //   console.log("Name:", name);
@@ -120,6 +125,19 @@ process(...data)
 //   console.log("Average:", average);
 // }
 // studentResult("Ali", 80, 70, 90, 60);
+
+//----------------practice---
+// function studentResult(name,...marks){
+//     console.log("Name :",name);
+//     let total = 0;
+//     for(let i of marks){
+//         total += i;
+//     }
+//     let average = total / marks.length;
+//     console.log("Total :",total);
+//     console.log("Average :",average);
+// }
+// studentResult("Owais khan",3,4,5,6,7,5)
 // ///-----------Rest Operator with array---------
 // const numbers= [1,2,3,4,5];
 // let [first1,...rest1] = numbers;
@@ -163,20 +181,17 @@ process(...data)
 // console.log(name);
 // console.log(first);
 // console.log(restMarks);
-const student = {
-    name: "owais",
-    age: 21,
-    marks :[80,90,70,85]
-};
-const {name, marks} = student;
-const [first, ...restMarks] = marks;
-console.log(name);
-console.log(first);
-console.log(restMarks)
-//----------
-
-
- 
+//--------practice-------
+// const student = {
+//     name: "uzair",
+//     age: 16,
+//     marks:[80,68,54,34]
+// }
+// const {name,marks}= student;
+// const [first,...restMarks] = marks;
+// console.log(name);
+// console.log(first);
+// console.log(restMarks)
 
     </script>
 </body>
