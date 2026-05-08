@@ -91,12 +91,18 @@ while (names[i10]){
 //     i2++;
 // }
 //--------practice----
-let i2 = 0;
+// let i2 = 0;
+// do{
+//     console.log("hello");
+// }while (i2 > 10){
+//     console.log(`the sum value is do while :${i2}`)
+//     i2++;
+// }
+let i2= 0;
 do{
     console.log("hello");
 }while (i2 > 10){
-    console.log(`the sum value is do while :${i2}`)
-    i2++;
+    console.log(`the sum value is do while `)
 }
 // let i9 = 0;
 // do{
