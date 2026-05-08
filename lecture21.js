@@ -130,3 +130,9 @@ for (let i = 1; i<num; i++){
 // } else {
 //   console.log("Strong password");
 // }
+let password = prompt("Enter password: ");
+if(password.length < 8){
+    console.log("Weak password");
+}else {
+    console.log("Strong password")
+}
