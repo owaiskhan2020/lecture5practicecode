@@ -34,8 +34,11 @@ let m = n &&=10;
 console.log(m);
 
 // Logical OR assignment operator
+// let a1 = false;
+// let b1 = a1 ||=10;
+// console.log(b1)
 let a1 = false;
-let b1 = a1 ||=10;
+let b1 = a1 ||= 10;
 console.log(b1)
 
 let c1 = true;
